@@ -1,0 +1,11 @@
+{
+  "name": "vinayaka-chikkis-fullstack",
+  "version": "1.0.0",
+  "description": "Vinayaka Chikkis Artisanal MERN E-Commerce Web Application",
+  "scripts": {
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node seeders/seedData.js",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
